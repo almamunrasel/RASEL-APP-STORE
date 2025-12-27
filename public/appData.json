@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://i.ibb.co.com/Ztq3mr7/chatgpt.jpg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 1,
+    "description": "AI assistant for answers, coding, writing, and learning.",
+    "size": 72,
+    "reviews": "820k",
+    "ratingAvg": 4.8,
+    "downloads": "410M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 535000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TB2ZbbNT/instagram.webp",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 2,
+    "description": "Photo and video sharing social platform.",
+    "size": 65,
+    "reviews": "650k",
+    "ratingAvg": 4.5,
+    "downloads": "5.2B",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2650000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tTvF8wrC/icon.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 3,
+    "description": "Short-form viral video platform.",
+    "size": 98,
+    "reviews": "920k",
+    "ratingAvg": 4.4,
+    "downloads": "7B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 340000 },
+      { "name": "4 star", "count": 770000 },
+      { "name": "5 star", "count": 3900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7tXyW9sx/Whats-App-svg.webp",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "id": 4,
+    "description": "Secure messaging and calls worldwide.",
+    "size": 48,
+    "reviews": "1000k",
+    "ratingAvg": 4.7,
+    "downloads": "10.8B",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 320000 },
+      { "name": "5 star", "count": 4300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RTzVysFk/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 5,
+    "description": "Social networking and communities.",
+    "size": 90,
+    "reviews": "780k",
+    "ratingAvg": 4.2,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 480000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HTg6CQrz/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 6,
+    "description": "Fast and secure cloud messaging.",
+    "size": 60,
+    "reviews": "490k",
+    "ratingAvg": 4.6,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 1730000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kgq0drK0/icon-1.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 7,
+    "description": "Navigation, traffic, and local discovery.",
+    "size": 90,
+    "reviews": "810k",
+    "ratingAvg": 4.7,
+    "downloads": "953M",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 520000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mCDNtZqC/capcut-png.png",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 8,
+    "description": "Video editing app for creators.",
+    "size": 105,
+    "reviews": "560k",
+    "ratingAvg": 4.5,
+    "downloads": "2.3B",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cX31bHr0/demo-app-1.webp",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 9,
+    "description": "Ephemeral photos and videos.",
+    "size": 75,
+    "reviews": "590k",
+    "ratingAvg": 4.3,
+    "downloads": "2.2B",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KgXrgLF/demo-app-2.webp",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 10,
+    "description": "Music streaming and podcasts.",
+    "size": 85,
+    "reviews": "740k",
+    "ratingAvg": 4.6,
+    "downloads": "1.4B",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6RRFscgc/demo-app-4.webp",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Watch, upload, and share videos.",
+    "size": 100,
+    "reviews": "900k",
+    "ratingAvg": 4.4,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 4500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jv2zqdWg/demo-app-5.webp",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 12,
+    "description": "Video meetings and conferencing.",
+    "size": 95,
+    "reviews": "420k",
+    "ratingAvg": 4.1,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jv2zqdWg/demo-app-5.webp",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "id": 13,
+    "description": "Ride booking and mobility services.",
+    "size": 88,
+    "reviews": "610k",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 110000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 110000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jv2zqdWg/demo-app-5.webp",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 14,
+    "description": "Movies, TV shows, and originals.",
+    "size": 110,
+    "reviews": "860k",
+    "ratingAvg": 4.5,
+    "downloads": "1.5B",
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 330000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cX31bHr0/demo-app-1.webp",
+    "title": "Amazon",
+    "companyName": "Amazon Inc.",
+    "id": 15,
+    "description": "Online shopping and delivery.",
+    "size": 95,
+    "reviews": "880k",
+    "ratingAvg": 4.3,
+    "downloads": "800M",
+    "ratings": [
+      { "name": "1 star", "count": 110000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  }
+]
