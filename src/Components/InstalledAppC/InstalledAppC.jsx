@@ -33,7 +33,7 @@ const InstalledAppC = ({app,handleUninstalled}) => {
 
       </div>
       <div>
-         <button onClick={()=>handleUninstalled(app.id)}   className='btn bg-[#00D390] text-white font-semibold rounded-xl mt-4'>Uninstall</button>
+         <button onClick={()=>handleUninstalled(app.id)}   className='btn weight-hover bg-[#00D390] text-white font-semibold rounded-xl mt-4'>Uninstall</button>
       </div>
       
      

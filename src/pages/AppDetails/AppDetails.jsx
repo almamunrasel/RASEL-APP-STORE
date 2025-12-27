@@ -67,7 +67,7 @@ const AppDetails = () => {
                 <button onClick={()=>handleInstall(singleApp.id)}
                  disabled={installed}
                  className={`btn font-semibold mt-4 py-6  transition text-lg rounded-3xl
-                  ${installed? 'bg-gray-400 cursor-not-allowed text-white ':'bg-[#00D390] text-white hover:bg-green-600'}`}
+                  ${installed? 'bg-gray-400 cursor-not-allowed text-white ':'bg-[#00D390] text-white weight-hover hover:bg-green-600'}`}
                  >{installed? 'Installed':`Install Now(${size} MB)`}  </button>
                 
               </div>

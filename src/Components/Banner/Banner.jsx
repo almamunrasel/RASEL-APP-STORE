@@ -14,8 +14,8 @@ const Banner = () => {
         <p className='text-[#627382] text-center p-4 md: mx-25 '>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br />   Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
       </div>
       <div className='flex justify-center gap-5 '>
-        <button className='btn font-bold text-xl'><span><img src={playstore} alt="" /></span>Google Play</button>
-        <button className='btn font-bold text-xl'><img src={appstore} alt="" />App Store</button>
+        <button onClick={() => window.open("https://play.google.com/store/games?device=windows&pli=1", "_blank")} className='btn font-bold text-xl'><span><img src={playstore} alt="" /></span>Google Play</button>
+        <button onClick={()=>window.open("https://www.apple.com/app-store/",)} className='btn font-bold text-xl'><img src={appstore} alt="" />App Store</button>
       </div>
 
       <div className='flex justify-center mt-10 h-80 '>
@@ -29,27 +29,29 @@ const Banner = () => {
           <p className='text-center font-semibold text-3xl'>Trusted by Millions, Built for You</p>
        </div>
 
-       <div className='flex justify-center gap-10 mt-10'>
-              <div>
-                <p className='text-xs ml-4'>Total Downloads</p>
-                <p className='font-bold text-5xl mt-3'>29.6M</p>
-                <p className='text-xs mt-3'>21% more than last month</p>
+      <div className="flex justify-center items-center gap-8 mt-10 flex-wrap md:flex-nowrap">
+  {/* Total Downloads */}
+  <div className="text-center md:text-left">
+    <p className="text-xs md:text-sm ml-0 md:ml-4">Total Downloads</p>
+    <p className="font-bold text-3xl md:text-5xl mt-3">29.6M</p>
+    <p className="text-xs md:text-sm mt-3">21% more than last month</p>
+  </div>
 
-              </div>
-              <div>
-                <p className='text-xs ml-4'>Total Reviews</p>
-                <p className='font-bold text-5xl mt-3'>906k</p>
-                <p className='text-xs mt-3'>46% more than last month</p>
+  {/* Total Reviews */}
+  <div className="text-center md:text-left">
+    <p className="text-xs md:text-sm ml-0 md:ml-4">Total Reviews</p>
+    <p className="font-bold text-3xl md:text-5xl mt-3">906k</p>
+    <p className="text-xs md:text-sm mt-3">46% more than last month</p>
+  </div>
 
-              </div>
-              <div>
-                <p className='text-xs ml-4'>Active Apps</p>
-                <p className='font-bold text-5xl mt-3'>132+</p>
-                <p className='text-xs mt-3'>31 More Will Launch</p>
+  {/* Active Apps */}
+  <div className="text-center md:text-left">
+    <p className="text-xs md:text-sm ml-0 md:ml-4">Active Apps</p>
+    <p className="font-bold text-3xl md:text-5xl mt-3">132+</p>
+    <p className="text-xs md:text-sm mt-3">31 More Will Launch</p>
+  </div>
+</div>
 
-
-              </div>
-       </div>
 
       </div>
 

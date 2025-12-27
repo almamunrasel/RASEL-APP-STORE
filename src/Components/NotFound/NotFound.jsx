@@ -18,4 +18,4 @@ const NotFound = ({onShowAll}) => {
   );
 };
 
-export default NotFound;
+export default NotFound; 

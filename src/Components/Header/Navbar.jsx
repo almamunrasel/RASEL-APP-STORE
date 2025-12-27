@@ -7,12 +7,12 @@ const Navbar = () => {
   const navigate=useNavigate();
   const links= <>
    <NavLink to='/' end 
-          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2" : "text-gray-600 m-2"} >Home</NavLink>
+          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2 " : "text-gray-600 m-2  hover:text-blue-600 transform hover:scale-130 transition-all duration-300"} >Home</NavLink>
   
   <NavLink to='/allapps'  end 
-          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2" : "text-gray-600 m-2" }>Apps</NavLink>
+          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2" : "text-gray-600 m-2  hover:text-blue-600 transform hover:scale-130 transition-all duration-300" }>Apps</NavLink>
   <NavLink to='/installedApp' end 
-          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2 " : "text-gray-600 m-2"}>Installation</NavLink>
+          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2 " : "text-gray-600 m-2  hover:text-blue-600 transform hover:scale-130 transition-all duration-300"}>Installation</NavLink>
   
   </>
   return (
@@ -41,7 +41,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end   ">
-    <a className="btn weight-hover bg-[linear-gradient(125.07deg,_rgba(99,46,227,1)_0%,_rgba(159,98,242,1)_100%)] "><span><img src={github} alt="" /></span><span className='text-white'>Contribute</span></a>
+    <a href='https://github.com/almamunrasel' target='_blank' className="btn weight-hover bg-[linear-gradient(125.07deg,_rgba(99,46,227,1)_0%,_rgba(159,98,242,1)_100%)] "><span><img src={github} alt="" /></span><span className='text-white'>Contribute</span></a>
   </div>
 </div>
   );
