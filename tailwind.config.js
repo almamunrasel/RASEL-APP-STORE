@@ -1,24 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       keyframes: {
-        vibrate: {
-          '0%': { transform: 'translate(0)' },
-          '20%': { transform: 'translate(-2px, 2px)' },
-          '40%': { transform: 'translate(-2px, -2px)' },
-          '60%': { transform: 'translate(2px, 2px)' },
-          '80%': { transform: 'translate(2px, -2px)' },
-          '100%': { transform: 'translate(0)' },
+        'bounce-short': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-8px)' },
         },
       },
       animation: {
-        vibrate: 'vibrate 0.3s linear infinite',
+        'bounce-short': 'bounce-short 0.6s ease-in-out infinite',
       },
+      transitionDelay: {
+        '200': '0.2s',
+        '400': '0.4s',
+      }
     },
   },
   plugins: [],

@@ -11,11 +11,11 @@ const Banner = () => {
 
       </div>
       <div>
-        <p className='text-[#627382] text-center p-4 md: mx-25 '>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br />   Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+        <p className='text-[#627382] text-center p-4 md: mx-25 '>At <span className='font-bold text-blue-900 text-lg'>HERO.IO </span> , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br />   Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
       </div>
       <div className='flex justify-center gap-5 '>
-        <button onClick={() => window.open("https://play.google.com/store/games?device=windows&pli=1", "_blank")} className='btn font-bold text-xl'><span><img src={playstore} alt="" /></span>Google Play</button>
-        <button onClick={()=>window.open("https://www.apple.com/app-store/",)} className='btn font-bold text-xl'><img src={appstore} alt="" />App Store</button>
+        <button onClick={() => window.open("https://play.google.com/store/games?device=windows&pli=1", "_blank")} className='btn bg-white font-bold text-xl hover:bg-gray-200'><span><img src={playstore} alt="" /></span>Google Play</button>
+        <button onClick={()=>window.open("https://www.apple.com/app-store/",)} className='btn bg-white font-bold text-xl hover:bg-gray-200'><img src={appstore} alt="" />App Store</button>
       </div>
 
       <div className='flex justify-center mt-10 h-80 '>
@@ -57,7 +57,7 @@ const Banner = () => {
 
       <div>
         <div className='text-center mt-10'>
-          <p className='font-bold text-3xl'>Trending Apps</p>
+          <p className='font-bold text-4xl'>Trending Apps</p>
         <p className='text-[#627382] p-2'>Explore All Trending Apps on the Market developed by us</p>
         </div>
       </div>

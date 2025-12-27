@@ -26,7 +26,7 @@ const removeFromStoredDb =(id)=>{
   if(storedAppData.includes(id)){
     storedAppData=storedAppData.filter(item=>item!=id);
     localStorage.setItem("appList", JSON.stringify(storedAppData));
-     alert('Removed successfully');
+     
     
   }
   return storedAppData;

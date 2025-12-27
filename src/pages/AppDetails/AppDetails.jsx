@@ -5,6 +5,7 @@ import star from '../../assets/staricon.png'
 import review from '../../assets/review.png'
 import Chart from '../../Components/Chart/Chart';
 import { addToStoredDB, getStoredApp } from '../../utility/addToDB';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
 
@@ -27,8 +28,12 @@ const AppDetails = () => {
 
     addToStoredDB(id);
     setInstalled(true);
+    toast.success(`${title} installed successfully! 🎉`, {
+    position: "top-right",
+    autoClose: 2000,
+  });
 
-  }
+  };
  
   
   return (

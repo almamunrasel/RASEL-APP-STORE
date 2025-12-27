@@ -2,6 +2,8 @@ import React, { useEffect, useState,useRef} from 'react';
 import { useLoaderData } from 'react-router';
 import { getStoredApp, removeFromStoredDb } from '../../utility/addToDB';
 import InstalledAppC from '../../Components/InstalledAppC/InstalledAppC';
+import { toast } from 'react-toastify';
+
 
 const InstalledApp = () => {
   const [installedList,setInstalledList]=useState([]);
@@ -31,11 +33,17 @@ const InstalledApp = () => {
   }
 
   const handleUninstalled = (id)=>{
+      const myapp = data.find(app=> app.id===id);
+      const title=myapp.title;
       removeFromStoredDb(id);
       const storedAppData= getStoredApp();
       const convertedStoredApp = storedAppData.map(id=>parseInt(id));
       const myAppList =data.filter(app =>convertedStoredApp.includes(app.id));
       setInstalledList(myAppList);
+       toast.success(`${title} uninstalled successfully! 🎉`, {
+          position: "top-right",
+          autoClose: 2000,
+        });
      
 
   }

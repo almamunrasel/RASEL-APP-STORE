@@ -2,17 +2,37 @@ import React from 'react';
 import { NavLink, useNavigate } from 'react-router';
 import herologo from '../../assets/herologo.png'
 import github from '../../assets/github.png'
+import { RiHome7Fill } from "react-icons/ri";
+import { FaAppStore } from "react-icons/fa";
+import { MdInstallDesktop } from "react-icons/md";
 
 const Navbar = () => {
   const navigate=useNavigate();
   const links= <>
-   <NavLink to='/' end 
-          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2 " : "text-gray-600 m-2  hover:text-blue-600 transform hover:scale-130 transition-all duration-300"} >Home</NavLink>
+  <NavLink
+  to="/"
+  end
+  className={({ isActive }) =>
+    isActive
+      ? "flex items-center gap-1 text-blue-600 font-bold m-2"
+      : "flex items-center gap-1 text-gray-600 m-2 hover:text-blue-600 transform hover:scale-110 transition-all duration-300"
+  }
+    >
+      <RiHome7Fill size={15} /> Home
+    </NavLink>
   
   <NavLink to='/allapps'  end 
-          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2" : "text-gray-600 m-2  hover:text-blue-600 transform hover:scale-130 transition-all duration-300" }>Apps</NavLink>
+          className={({ isActive }) => isActive ? 
+         "flex items-center gap-1 text-blue-600 font-bold m-2" 
+           : "flex items-center gap-1 text-gray-600 m-2 hover:text-blue-600 transform hover:scale-110 transition-all duration-300" }>
+
+           <FaAppStore size={15} /> Apps</NavLink>
+
+
   <NavLink to='/installedApp' end 
-          className={({ isActive }) => isActive ? "text-blue-600 font-bold m-2 " : "text-gray-600 m-2  hover:text-blue-600 transform hover:scale-130 transition-all duration-300"}>Installation</NavLink>
+           className={({ isActive }) => isActive ? 
+         "flex items-center gap-1 text-blue-600 font-bold m-2" 
+           : "flex items-center gap-1 text-gray-600 m-2 hover:text-blue-600 transform hover:scale-110 transition-all duration-300" }> <MdInstallDesktop size={15} /> Installation</NavLink>
   
   </>
   return (
